@@ -32,7 +32,7 @@ public class FrontController {
 	@RequestMapping("/")
 	public ModelAndView register()
 	{
-		ModelAndView mv=new ModelAndView("index");
+		ModelAndView mv=new ModelAndView("index.jsp");
 		long bk =brepo.count();
 		System.out.println("customer object =="+bk);
 		mv.addObject("obj",bk);
