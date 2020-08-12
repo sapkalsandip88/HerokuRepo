@@ -8,17 +8,17 @@
 <title>Purple Admin</title>
 <!-- plugins:css -->
 <link rel="stylesheet"
-	href="assets/vendors/mdi/css/materialdesignicons.min.css">
-<link rel="stylesheet" href="assets/vendors/css/vendor.bundle.base.css">
+	href="/assets/vendors/mdi/css/materialdesignicons.min.css">
+<link rel="stylesheet" href="/assets/vendors/css/vendor.bundle.base.css">
 <!-- endinject -->
 <!-- Plugin css for this page -->
 <!-- End plugin css for this page -->
 <!-- inject:css -->
 <!-- endinject -->
 <!-- Layout styles -->
-<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="/assets/css/style.css">
 <!-- End layout styles -->
-<link rel="shortcut icon" href="assets/images/favicon.png" />
+<link rel="shortcut icon" href="/assets/images/favicon.png" />
 </head>
 <body>
 	<div class="container-scroller">
@@ -28,9 +28,9 @@
 			<div
 				class="text-center navbar-brand-wrapper d-flex align-items-center justify-content-center">
 				<a class="navbar-brand brand-logo" href="index.html"><img
-					src="assets/images/logo.svg" alt="logo" /></a> <a
+					src="/assets/images/logo.svg" alt="logo" /></a> <a
 					class="navbar-brand brand-logo-mini" href="index.html"><img
-					src="assets/images/logo-mini.svg" alt="logo" /></a>
+					src="/assets/images/logo-mini.svg" alt="logo" /></a>
 			</div>
 			<div class="navbar-menu-wrapper d-flex align-items-stretch">
 				<button class="navbar-toggler navbar-toggler align-self-center"
@@ -735,19 +735,19 @@
 	</div>
 	<!-- container-scroller -->
 	<!-- plugins:js -->
-	<script src="assets/vendors/js/vendor.bundle.base.js"></script>
+	<script src="/assets/vendors/js/vendor.bundle.base.js"></script>
 	<!-- endinject -->
 	<!-- Plugin js for this page -->
-	<script src="assets/vendors/chart.js/Chart.min.js"></script>
+	<script src="/assets/vendors/chart.js/Chart.min.js"></script>
 	<!-- End plugin js for this page -->
 	<!-- inject:js -->
-	<script src="assets/js/off-canvas.js"></script>
-	<script src="assets/js/hoverable-collapse.js"></script>
-	<script src="assets/js/misc.js"></script>
+	<script src="/assets/js/off-canvas.js"></script>
+	<script src="/assets/js/hoverable-collapse.js"></script>
+	<script src="/assets/js/misc.js"></script>
 	<!-- endinject -->
 	<!-- Custom js for this page -->
-	<script src="assets/js/dashboard.js"></script>
-	<script src="assets/js/todolist.js"></script>
+	<script src="/assets/js/dashboard.js"></script>
+	<script src="/assets/js/todolist.js"></script>
 	<!-- End custom js for this page -->
 </body>
 </html>
