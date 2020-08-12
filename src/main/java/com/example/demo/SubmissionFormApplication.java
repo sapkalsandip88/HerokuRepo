@@ -9,8 +9,18 @@ import org.springframework.boot.web.servlet.support.SpringBootServletInitializer
 import org.springframework.context.annotation.ComponentScan;
 @ComponentScan
 @SpringBootApplication
-public class SubmissionFormApplication{
+@EnableAutoConfiguration(exclude=ErrorMvcAutoConfiguration.class)
+public class SubmissionFormApplication extends SpringBootServletInitializer{
 
+	public SubmissionFormApplication() {
+	    super();
+	    setRegisterErrorPageFilter(false); // <- this one
+	}
+	@Override
+	protected SpringApplicationBuilder configure(SpringApplicationBuilder application)
+	{
+		return application.sources(SubmissionFormApplication.class);
+	}
 	public static void main(String[] args) {
 		
 		SpringApplication.run(SubmissionFormApplication.class, args);
