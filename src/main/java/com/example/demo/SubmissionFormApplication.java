@@ -12,7 +12,10 @@ import org.springframework.context.annotation.ComponentScan;
 @EnableAutoConfiguration(exclude=ErrorMvcAutoConfiguration.class)
 public class SubmissionFormApplication extends SpringBootServletInitializer{
 
-	
+	public SubmissionFormApplication() {
+	    super();
+	    setRegisterErrorPageFilter(false); // <- this one
+	}
 	@Override
 	protected SpringApplicationBuilder configure(SpringApplicationBuilder application)
 	{
